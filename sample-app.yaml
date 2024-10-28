@@ -1,10 +1,10 @@
 kind: Application
 metadata:
-  name: argocd-dummy-app1
-  namespace: argocd
+  name: argocd-dummy-app
+  namespace: argocd-dummy
 spec:
   destination:
-    namespace: argocd
+    namespace: argocd-dummy
     server: https://kubernetes.default.svc
   source:
     path: .
