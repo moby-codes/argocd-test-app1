@@ -1,2 +1,2 @@
 # argocd-test-app1
-argo-test-app-2
+a basic test app to show in argocd demo
